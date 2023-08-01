@@ -1,0 +1,68 @@
+/* PaymentPage.css */
+.payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    background-image: url(https://img.freepik.com/premium-vector/blue-watercolor-brush-paint-vector-stylized-striped-card-wallpaper-web-print-aquarelle-abstract-hand-drawn-paper-texture-liquid-cold-colour-background_548264-391.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .card-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .card-input {
+    margin-bottom: 20px;
+  }
+  
+  .card-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .card-input input {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .card-input-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pay-button {
+    width: 100%;
+    height: 45px;
+    background-color: #2364d2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #1d4fbc;
+    }
+  }
+  

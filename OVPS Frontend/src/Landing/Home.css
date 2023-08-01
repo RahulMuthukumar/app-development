@@ -1,0 +1,40 @@
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://img.freepik.com/free-vector/oriental-mandala-frame-floral_53876-115955.jpg?w=996&t=st=1689844948~exp=1689845548~hmac=4a8c1a01c40369d967637384ff32e783f2743e1e03ac77635f701c9421e1e461');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .home-page-container h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page-container p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #100b0b;
+  }
+  
+  .cta-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0056b3;
+  }
+  
